@@ -55,7 +55,8 @@ main {
 
 section {
     color: white;
-    padding-top: 4px;    
+    padding-top: 4px;
+    padding-left: 4px; 
     border-radius: 10px;
     background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
 }
@@ -103,6 +104,40 @@ section ul li:hover {
 }
 
 
+button.page-1 {
+    transition: transform .3s;
+    cursor: pointer;
+    width: 70px;
+    background-color: #2A2634;
+    border-radius: 5px;
+    border: 0.1px;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+}
+
+button.page-2 {
+    transition: transform .3s;
+    cursor: pointer;
+    width: 70px;
+    background-color: #2A2634;
+    border-radius: 5px;
+    border: 0.1px;
+    background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* PAGE MOVIES */
+
+section.channel-movies {
+    color: white;
+    padding-top: 4px;
+    padding-left: 4px; 
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
+}
+
 /* animation */
 
 header div {
@@ -148,3 +183,4 @@ main section:nth-child(3){
         transform: translateX(0)
     }
 }
+
