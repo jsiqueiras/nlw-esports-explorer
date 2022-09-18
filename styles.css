@@ -5,10 +5,19 @@
 }
 ul {
     list-style: none;
+
 }
 
-body {
+.pge-1-body {
     background-image: url(./assets/bg.jpg);
+    background-position: top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+.pge-2-body {
+    background-image: url(./assets/estrelas.png);
     background-position: top center;
     background-size: 100% auto;
     background-repeat: no-repeat;
